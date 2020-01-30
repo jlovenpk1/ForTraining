@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Dadata;
 using Dadata.Model;
+using ForTraining.Leetcode;
 
 namespace ForTraining
 {
@@ -17,14 +18,9 @@ namespace ForTraining
         
         static void Main(string[] args)
         {
-            Solution st = new Solution();
-
+            Find_Numbers_with_Even_Number_of_Digits task1 = new Find_Numbers_with_Even_Number_of_Digits();
+            task1.FindNumbers();
         }
        
     }
-
-    class Solution
-    {
-    }
-
 }
