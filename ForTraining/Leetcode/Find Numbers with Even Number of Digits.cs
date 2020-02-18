@@ -24,6 +24,8 @@ namespace ForTraining.Leetcode
                 int count = nums[i].ToString().Length;
                 result = count >= 2 && (double)count % 2 == 0 ? result += 1 : result;
             }
+            Console.WriteLine("Результат поиска: " + result);
+            Console.ReadKey();
             return result;
             /*
              Runtime: 100 ms, faster than 44.73% of C# online submissions for Find Numbers with Even Number of Digits.

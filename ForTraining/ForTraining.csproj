@@ -48,6 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HackerRank\Sock Merchant.cs" />
     <Compile Include="Human.cs" />
     <Compile Include="Leetcode\Find Numbers with Even Number of Digits.cs" />
     <Compile Include="Program.cs" />
