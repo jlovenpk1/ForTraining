@@ -12,6 +12,7 @@ using ForTraining.ForFun.Builder;
 using ForTraining.ForFun.Delegate;
 using ForTraining.ForFun.Factory_Method;
 using ForTraining.ForFun.RegexSample;
+using ForTraining.ForFun.Singletone;
 using ForTraining.HackerRank;
 using ForTraining.Leetcode;
 
@@ -28,11 +29,16 @@ namespace ForTraining
             //sm.Main();
             //ForFun.Delegate.Delegate dm = new ForFun.Delegate.Delegate();
             //dm.Execute();
-            FactoryMethod fm = new FactoryMethod();
-            fm.Execute();
-            Console.ReadKey();
-            Builder br = new Builder();
-            br.Execute();
+            //FactoryMethod fm = new FactoryMethod();
+            //fm.Execute();
+            //Console.ReadKey();
+            //Builder br = new Builder();
+            //br.Execute();
+            //Console.ReadKey();
+            Singletone s1 = Singletone.GetInstance();
+            s1.OpenConnect();
+            s1.CloseConnect();
+            s1.GetInfoAdmin();
             Console.ReadKey();
         }
        
