@@ -48,8 +48,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ForFun\Builder\Builder.cs" />
     <Compile Include="ForFun\Delegate\Delegate.cs" />
     <Compile Include="ForFun\Event\Event.cs" />
+    <Compile Include="ForFun\Factory Method\FactoryMethod.cs" />
+    <Compile Include="ForFun\Regex\RegexSample.cs" />
     <Compile Include="HackerRank\Sock Merchant.cs" />
     <Compile Include="Human.cs" />
     <Compile Include="Leetcode\Find Numbers with Even Number of Digits.cs" />
