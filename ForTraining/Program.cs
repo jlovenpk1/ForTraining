@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Dadata;
 using Dadata.Model;
+using ForTraining.ForFun.Builder;
 using ForTraining.ForFun.Delegate;
 using ForTraining.ForFun.Factory_Method;
 using ForTraining.ForFun.RegexSample;
@@ -29,6 +30,9 @@ namespace ForTraining
             //dm.Execute();
             FactoryMethod fm = new FactoryMethod();
             fm.Execute();
+            Console.ReadKey();
+            Builder br = new Builder();
+            br.Execute();
             Console.ReadKey();
         }
        
