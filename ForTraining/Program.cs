@@ -15,6 +15,8 @@ using ForTraining.ForFun.RegexSample;
 using ForTraining.ForFun.Singletone;
 using ForTraining.HackerRank;
 using ForTraining.Leetcode;
+using ForTraining.StackOverflow.OpenFileInFolder;
+using ForTraining.StackOverflow.ReadFileZipTxt;
 
 namespace ForTraining
 {
@@ -35,10 +37,14 @@ namespace ForTraining
             //Builder br = new Builder();
             //br.Execute();
             //Console.ReadKey();
-            Singletone s1 = Singletone.GetInstance();
-            s1.OpenConnect();
-            s1.CloseConnect();
-            s1.GetInfoAdmin();
+            //Singletone s1 = Singletone.GetInstance();
+            //s1.OpenConnect();
+            //s1.CloseConnect();
+            //s1.GetInfoAdmin();
+            //ReadTxtInZip rtx = new ReadTxtInZip();
+            //rtx.workWithZip2();
+            FileFindFolder fff = new FileFindFolder(@"D:\test1", @"D:\test2");
+            fff.Run();
             Console.ReadKey();
         }
        
