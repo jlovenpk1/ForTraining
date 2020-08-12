@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Dadata;
 using Dadata.Model;
+using ForTraining.CodeWars;
 using ForTraining.ForFun.Builder;
 using ForTraining.ForFun.Delegate;
 using ForTraining.ForFun.Factory_Method;
@@ -15,8 +16,6 @@ using ForTraining.ForFun.RegexSample;
 using ForTraining.ForFun.Singletone;
 using ForTraining.HackerRank;
 using ForTraining.Leetcode;
-using ForTraining.StackOverflow.OpenFileInFolder;
-using ForTraining.StackOverflow.ReadFileZipTxt;
 
 namespace ForTraining
 {
@@ -41,10 +40,13 @@ namespace ForTraining
             //s1.OpenConnect();
             //s1.CloseConnect();
             //s1.GetInfoAdmin();
-            //ReadTxtInZip rtx = new ReadTxtInZip();
-            //rtx.workWithZip2();
-            FileFindFolder fff = new FileFindFolder(@"D:\test1", @"D:\test2");
-            fff.Run();
+            //Console.ReadKey();
+            //JadeCase jade = new JadeCase();
+            //jade.JadenCase();
+            //Console.ReadKey();
+
+            Find_the_divisors ftd = new Find_the_divisors();
+            var x = ftd.FindTheDivisors(16);
             Console.ReadKey();
         }
        
