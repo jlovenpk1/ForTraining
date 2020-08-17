@@ -71,7 +71,9 @@
   <ItemGroup>
     <Compile Include="CodeWars\8K\JadeCase.cs" />
     <Compile Include="CodeWars\Find the divisors.cs" />
+    <Compile Include="ForFun\ClassPracticle\Animal.cs" />
     <Compile Include="ForFun\Builder\Builder.cs" />
+    <Compile Include="ForFun\ClassPracticle\MakeAnimal.cs" />
     <Compile Include="ForFun\Delegate\Delegate.cs" />
     <Compile Include="ForFun\Event\Event.cs" />
     <Compile Include="ForFun\Factory Method\FactoryMethod.cs" />
