@@ -11,14 +11,30 @@ namespace ForTraining.ForFun.ClassPracticle
     {
         public void Run()
         {
-
+            Animal aCat = new Cat("Bagira");
+            aCat.Eat();
+            aCat.GetInfo();
+            aCat.Roar();
+            aCat.Name = "Zotoshka";
+            aCat.GetInfo();
+            aCat.Run();
+            aCat.Walk();
+            Cat aKitty = new Kitty("Myokao");
+            aKitty.Eat();
+            Console.ReadKey();
         }
     }
 
     class Cat : Animal
     {
         private string _name;
-        public override string Name { get => _name; set => _name = value }
+        public override string Name { get => _name; set => _name = value; }
+
+        public Cat(string name)
+        {
+            _name = name;
+            Console.WriteLine("Make Cate");
+        }
 
         public override void Eat()
         {
@@ -43,6 +59,16 @@ namespace ForTraining.ForFun.ClassPracticle
         public override void Walk()
         {
             Console.WriteLine("{0} Walk", Name);
+        }
+    }
+
+    class Kitty : Cat
+    {
+        
+        public Kitty(string name):base(name)
+        {
+
+            Console.WriteLine("Make Kitty {0}",name);
         }
     }
 }

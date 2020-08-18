@@ -9,7 +9,9 @@ using System.Threading.Tasks;
 using Dadata;
 using Dadata.Model;
 using ForTraining.CodeWars;
+using ForTraining.ForFun;
 using ForTraining.ForFun.Builder;
+using ForTraining.ForFun.ClassPracticle;
 using ForTraining.ForFun.Delegate;
 using ForTraining.ForFun.Factory_Method;
 using ForTraining.ForFun.RegexSample;
@@ -44,9 +46,10 @@ namespace ForTraining
             //JadeCase jade = new JadeCase();
             //jade.JadenCase();
             //Console.ReadKey();
-
-            Find_the_divisors ftd = new Find_the_divisors();
-            var x = ftd.FindTheDivisors(16);
+            //Find_the_divisors ftd = new Find_the_divisors();
+            //var x = ftd.FindTheDivisors(16);
+            MakeAnimal make = new MakeAnimal();
+            make.Run();
             Console.ReadKey();
         }
        
