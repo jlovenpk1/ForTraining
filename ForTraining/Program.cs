@@ -10,12 +10,15 @@ using Dadata;
 using Dadata.Model;
 using ForTraining.CodeWars;
 using ForTraining.ForFun;
+using ForTraining.ForFun.BubbleSort;
 using ForTraining.ForFun.Builder;
+using ForTraining.ForFun.ClassED;
 using ForTraining.ForFun.ClassPracticle;
 using ForTraining.ForFun.Delegate;
 using ForTraining.ForFun.Factory_Method;
 using ForTraining.ForFun.RegexSample;
 using ForTraining.ForFun.Singletone;
+using ForTraining.ForFun.Strategy;
 using ForTraining.HackerRank;
 using ForTraining.Leetcode;
 
@@ -48,8 +51,21 @@ namespace ForTraining
             //Console.ReadKey();
             //Find_the_divisors ftd = new Find_the_divisors();
             //var x = ftd.FindTheDivisors(16);
-            MakeAnimal make = new MakeAnimal();
-            make.Run();
+            //MakeAnimal make = new MakeAnimal();
+            //make.Run();
+            //CarMagazine _cm = new CarMagazine(new Car { Name = "BMW", Age = 25, Power = 240, DateBuild = DateTime.Now });
+            //_cm.Execute();
+            Human china = new Chiness("Микао","Сан Ду","Китаец","Китай","Китайский");
+            Human huma = new Human("Человек","Человеченский","Земля","Всеобщий");
+            china.GetInfo();
+            china.Language();
+            china.YourFrom();
+            china.YourNational();
+            Console.WriteLine("________________________________");
+            huma.GetInfo();
+            huma.Language();
+            huma.YourFrom();
+            huma.YourNational();
             Console.ReadKey();
         }
        

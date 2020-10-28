@@ -71,6 +71,9 @@
   <ItemGroup>
     <Compile Include="CodeWars\8K\JadeCase.cs" />
     <Compile Include="CodeWars\Find the divisors.cs" />
+    <Compile Include="ForFun\AHuman.cs" />
+    <Compile Include="ForFun\BubbleSort\BubbleSortClass.cs" />
+    <Compile Include="ForFun\ClassED\ClassED.cs" />
     <Compile Include="ForFun\ClassPracticle\Animal.cs" />
     <Compile Include="ForFun\Builder\Builder.cs" />
     <Compile Include="ForFun\ClassPracticle\MakeAnimal.cs" />
@@ -79,8 +82,11 @@
     <Compile Include="ForFun\Factory Method\FactoryMethod.cs" />
     <Compile Include="ForFun\Regex\RegexSample.cs" />
     <Compile Include="ForFun\Singletone\Singletone.cs" />
+    <Compile Include="ForFun\Strategy\ACar.cs" />
+    <Compile Include="ForFun\Strategy\Car.cs" />
+    <Compile Include="ForFun\Strategy\CarMagazine.cs" />
+    <Compile Include="ForFun\Strategy\ICar.cs" />
     <Compile Include="HackerRank\Sock Merchant.cs" />
-    <Compile Include="Human.cs" />
     <Compile Include="Leetcode\Find Numbers with Even Number of Digits.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
